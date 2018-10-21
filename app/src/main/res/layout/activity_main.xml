@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.changchinghsiang.sunday_classno_09_mediarecorderaudio.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/xml_padding_16">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_button_text_start_recorder"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom_10"
+        android:onClick="StartOnClick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_button_text_stop_recorder"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom_10"
+        android:onClick="StopOnClick" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_textView_text" />
+</LinearLayout>
